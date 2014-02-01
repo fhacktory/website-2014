@@ -1,19 +1,163 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
+	<head>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= current_page.data.title || "Fhacktory" %></title>
+
     <meta charset="utf-8">
-    
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-    
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
-  </head>
-  
-  <body class="<%= page_classes %>">
+
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
+    <!--[if lte IE 8]>
+      <%= javascript_include_tag 'html5shiv' %>
+      <%= stylesheet_link_tag 'css/ie8' %>
+    <![endif]-->
+
+    <%= javascript_include_tag 'all' %>
+
+		<noscript>
+      <%= stylesheet_link_tag 'css/skel-noscript', 'css/style', 'css/style-desktop' %>
+		</noscript>
+	</head>
+
+	<body class="homepage <%= page_classes %>">
+
     <%= yield %>
-  </body>
+
+		<!-- Footer Wrapper -->
+			<div id="footer-wrapper" class="wrapper">
+				<div class="title">The Rest Of It</div>
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+
+							<!-- Footer -->
+								<div id="footer">
+									<header class="style1">
+										<h2>Ipsum sapien elementum portitor?</h2>
+										<p class="byline">
+											Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
+											Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
+										</p>
+									</header>
+									<hr />
+									<div>
+										<div class="row">
+											<div class="6u">
+
+												<!-- Contact Form -->
+													<section class="footer-one">
+														<form method="post" action="#">
+															<div>
+																<div class="row half">
+																	<div class="6u">
+																		<input type="text" class="text" name="name" id="contact-name" placeholder="Name" />
+																	</div>
+																	<div class="6u">
+																		<input type="text" class="text" name="name" id="contact-email" placeholder="Email" />
+																	</div>
+																</div>
+																<div class="row half">
+																	<div class="12u">
+																		<textarea name="message" id="contact-message" placeholder="Message"></textarea>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="12u">
+																		<ul class="actions">
+																			<li><input type="submit" class="button button-style1" value="Send" /></li>
+																			<li><input type="reset" class="button button-style2" value="Reset" /></li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</form>
+													</section>
+												<!-- /Contact Form -->
+
+											</div>
+											<div class="6u">
+											
+												<!-- Contacts -->
+													<section class="footer-two">
+														<div class="feature-list feature-list-small">
+															<div>
+																<div class="row">
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-home">Mailing Address</h3>
+																			<p>
+																				Untitled Corporation<br />
+																				1234 Somewhere Rd #987<br />
+																				Nashville, TN 00000-0000
+																			</p>
+																		</section>
+																	</div>
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-comment">Social</h3>
+																			<p>
+																				<a href="http://twitter.com/n33co">@n33co</a><br />
+																				<a href="http://dribbble.com/n33">dribbble.com/n33</a><br />
+																				<a href="#">facebook.com/untitled</a>
+																			</p>
+																		</section>
+																	</div>
+																</div>
+																<div class="row">
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-envelope">Email</h3>
+																			<p>
+																				<a href="#">info@untitled.tld</a>
+																			</p>
+																		</section>
+																	</div>
+																	<div class="6u">
+																		<section>
+																			<h3 class="fa fa-phone">Phone</h3>
+																			<p>
+																				(000) 555-0000
+																			</p>
+																		</section>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</section>
+												<!-- /Contacts -->
+													
+											</div>
+										</div>
+									</div>
+									<hr />
+								</div>
+							<!-- /Footer -->
+
+							<!-- Copyright -->
+								<div id="copyright">
+									<span>
+										&copy; Untitled. Demo Images by <a href="http://ineedchemicalx.deviantart.com/">Felicia Simion</a>. Design by <a href="http://html5up.net/">HTML5 UP</a>.
+									</span>
+								</div>
+							<!-- /Copyright -->
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		<!-- /Footer Wrapper -->
+
+	</body>
 </html>
