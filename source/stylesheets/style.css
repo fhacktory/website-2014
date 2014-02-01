@@ -1119,10 +1119,32 @@
 
 		#logo h2
 		{
+      text-align: left;
+      display: inline-block;
+      margin: 0 auto;
 			font-weight: 900;
 			text-transform: uppercase;
 			color: #fff;
 		}
+
+      #logo h2 .byline
+      {
+        text-align: center;
+      }
+
+      #logo h2 .tagline
+      {
+        font-size: 7em;
+        line-height: 1em;
+      }
+
+      #logo h2 .percent
+      {
+        text-align: right;
+        display: inline-block;
+        width: 3em;
+        padding-right: 0.25em;
+      }
 		
 		#logo .byline
 		{
