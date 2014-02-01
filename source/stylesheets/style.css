@@ -1098,9 +1098,26 @@
 
 	#logo
 	{
+    text-align: center;
 	}
 	
+		#logo #logo_container
+    {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
 		#logo h1
+    {
+      background: url('images/fhacktory.png') no-repeat;
+      background-size: 100%;
+      padding-top: 42.25%;
+      height: 0;
+      text-indent: -9999px;
+    }
+
+		#logo h2
 		{
 			font-weight: 900;
 			text-transform: uppercase;
