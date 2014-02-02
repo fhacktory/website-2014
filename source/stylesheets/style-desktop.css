@@ -33,7 +33,7 @@
 
 	header.style1
 	{
-		padding: 3em 0 3em 0;
+		padding: 2em 0 3em 0;
 	}
 
 		header.style1 h2
@@ -151,7 +151,7 @@
 	
 		.feature-list p
 		{
-			margin: 0 0 0 5em;
+			margin: 0;
 		}
 		
 		.feature-list-small
@@ -475,17 +475,17 @@
 /* Features                                                                      */
 /*********************************************************************************/
 
-	#features
+	.features
 	{
 		padding: 0 6em 0 6em;
 	}
 
-		#features header.style1
+		.features header.style1
 		{
 			padding-bottom: 5em;
 		}
 		
-		#features .actions
+		.features .actions
 		{
 			margin-top: 5em;
 		}
@@ -494,32 +494,32 @@
 /* Highlights                                                                    */
 /*********************************************************************************/
 
-	#highlights
+	.highlights
 	{
 	}
 
-		#highlights .highlight
+		.highlights .highlight
 		{
 		}
 
-			#highlights .highlight h3
+			.highlights .highlight h3
 			{
 				margin: 0 0 0.75em 0;
 				font-size: 1.15em;
 				letter-spacing: 0.05em;
 			}
 
-		#highlights .highlight-one
+		.highlights .highlight-one
 		{
 			padding-right: 2em;
 		}
 		
-		#highlights .highlight-two
+		.highlights .highlight-two
 		{
 			padding: 0 1em 0 1em;
 		}
 		
-		#highlights .highlight-three
+		.highlights .highlight-three
 		{
 			padding-left: 2em;
 		}

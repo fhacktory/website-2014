@@ -260,6 +260,14 @@
 		{
 			font-weight: 700;
 		}
+
+      header.style1 em
+      {
+        font-style: normal;
+        color: #e97770;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
 		
 		header.style1 .byline
 		{
@@ -378,6 +386,12 @@
 				background-color: #1f232b;
 			}
 
+    .button.inactive
+    {
+      background: #777;
+      background: rgba(120,120,120,0.5);
+    }
+
 	ul.style1
 	{
 	}
@@ -426,16 +440,29 @@
 	{
 	}
 
-	.feature-list
+	.feature-list,
+  .makers-list
 	{
 	}
 
-		.feature-list h3
+  .makers-list
+  {
+    text-align: center;
+  }
+
+    .makers-list header.fa
+		{
+			font-size: 4em;
+		}
+
+		.feature-list h3,
+    .makers-list h3
 		{
 			color: #e97770 !important;
 		}
 		
-			.feature-list h3:before
+			.feature-list h3:before,
+			.makers-list h3:before
 			{
 				position: relative;
 				display: inline-block;
@@ -444,6 +471,11 @@
 				border-radius: 1em;
 				text-align: center;
 			}
+
+    .makers-list section p
+		{
+			text-align: left;
+		}
 
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -873,6 +905,21 @@
 		.fa-vimeo-square:before{content:"\f194"}
 		.fa-turkish-lira:before,.fa-try:before{content:"\f195"}
 
+
+
+
+code
+{
+  font-family: 'Courier New', monospace;
+  color: #000;
+  background: #eee;
+  white-space: nowrap;
+}
+
+
+
+
+
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
@@ -1068,6 +1115,7 @@
 	.wrapper-style2
 	{
 		background: #fff;
+    padding-top: 3em !important;
 	}
 	
 		.wrapper-style2 .title
@@ -1154,6 +1202,41 @@
 		}
 
 /*********************************************************************************/
+/* Events                                                                        */
+/*********************************************************************************/
+
+	#events
+	{
+	}
+
+    #events .row
+    {
+      margin-left: 0;
+    }
+
+    #events .row > *
+    {
+      padding-left: 0;
+    }
+	
+		#events .event
+		{
+      text-align: center;
+      padding: 0 3em;
+		}	
+
+      #events .event .byline
+      {
+        padding-bottom: 1em;
+      }
+
+    #events h3
+    {
+      font-size: 2em;
+    }
+		
+		
+/*********************************************************************************/
 /* Intro                                                                         */
 /*********************************************************************************/
 
@@ -1187,16 +1270,16 @@
 /* Highlights                                                                    */
 /*********************************************************************************/
 
-	#highlights
+	.highlights
 	{
 	}
 
-		#highlights .highlight
+		.highlights .highlight
 		{
 			text-align: center;
 		}
 		
-			#highlights .highlight h3
+			.highlights .highlight h3
 			{
 				color: #e97770;
 			}
