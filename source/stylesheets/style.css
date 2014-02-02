@@ -1079,12 +1079,16 @@ code
 
 			#footer-wrapper .feature-list h3
 			{
+        display: inline-block;
+        vertical-align: top;
+        padding: 2em;
 			}
 			
 				#footer-wrapper .feature-list h3:before
 				{
 					background: #3d4249 url('images/overlay.png');
 				}
+
 	
 	.wrapper-style1
 	{
@@ -1192,6 +1196,29 @@ code
         display: inline-block;
         width: 3em;
         padding-right: 0.25em;
+      }
+
+      #logo h3
+      {
+        display: inline-block;
+        padding: 2em;
+
+      }
+
+      #logo h3:before
+      {
+				position: relative;
+				display: inline-block;
+				color: #fff;
+        background: #3d4249 url('images/overlay.png');
+				border-radius: 1em;
+				text-align: center;
+
+        font-size: 24px;
+        line-height: 45px;
+        width: 45px;
+        height: 45px;
+        margin-right: 1em;
       }
 		
 		#logo .byline
