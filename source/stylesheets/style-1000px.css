@@ -31,7 +31,6 @@
 
 	#header-wrapper
 	{
-		height: 400px !important;
 	}
 
 	#intro-wrapper
@@ -88,6 +87,12 @@
 		{
 			font-size: 2.25em;
 		}
+
+
+  #events .row:nth-child(2)
+  {
+    font-size: 0.75em;
+  }
 	
 /*********************************************************************************/
 /* Copyright                                                                     */
