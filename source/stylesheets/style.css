@@ -264,7 +264,7 @@
       header.style1 em
       {
         font-style: normal;
-        color: #e97770;
+        color: #d06f06;
         font-weight: 900;
         text-transform: uppercase;
       }
@@ -339,7 +339,7 @@
 
 		.button-style1
 		{
-			background: #e97770 url('images/overlay.png');
+			background: #d03f06 url('images/overlay.png');
 			color: #fff;
 		}
 
@@ -458,7 +458,7 @@
 		.feature-list h3,
     .makers-list h3
 		{
-			color: #e97770 !important;
+			color: #d06f06 !important;
 		}
 		
 			.feature-list h3:before,
@@ -1092,14 +1092,14 @@ code
 	
 	.wrapper-style1
 	{
-		background: #e97770 url('images/overlay.png');
+		background: #d03f06 url('images/overlay.png');
 		color: #eee;
 		color: rgba(255,255,255,0.75);
 	}
 	
 		.wrapper-style1 .title
 		{
-			background: #e97770 url('images/overlay.png');
+			background: #d03f06 url('images/overlay.png');
 			color: #fff;
 		}
 	
@@ -1308,7 +1308,7 @@ code
 		
 			.highlights .highlight h3
 			{
-				color: #e97770;
+				color: #d06f06;
 			}
 
 /*********************************************************************************/
