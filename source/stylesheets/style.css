@@ -264,7 +264,7 @@
       header.style1 em
       {
         font-style: normal;
-        color: #d06f06;
+        color: #d03f06;
         font-weight: 900;
         text-transform: uppercase;
       }
@@ -458,7 +458,7 @@
 		.feature-list h3,
     .makers-list h3
 		{
-			color: #d06f06 !important;
+			color: #d03f06 !important;
 		}
 		
 			.feature-list h3:before,
@@ -924,6 +924,21 @@ code
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
+  .sponsors {
+    padding-top: 2em;
+    text-align: center;
+  }
+
+    .sponsors .row > * {
+      float: none;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+
+      .sponsors .row .\33 u {
+        width: 24%;
+      }
+
 	.wrapper
 	{
 		position: relative;
@@ -1308,7 +1323,7 @@ code
 		
 			.highlights .highlight h3
 			{
-				color: #d06f06;
+				color: #d03f06;
 			}
 
 /*********************************************************************************/
