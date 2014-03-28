@@ -935,8 +935,16 @@ code
       vertical-align: bottom;
     }
 
+      .sponsors .row .\34 u {
+        width: 33%;
+      }
+
       .sponsors .row .\33 u {
         width: 24%;
+      }
+
+      .sponsors .row .\32 u {
+        width: 16%;
       }
 
 	.wrapper
